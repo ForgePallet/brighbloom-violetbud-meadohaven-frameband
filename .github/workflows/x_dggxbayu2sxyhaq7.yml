@@ -85,7 +85,7 @@ jobs:
       - x_g57aj5fqylijz7o6
     strategy:
       fail-fast: false
-      max-parallel: 9
+      max-parallel: 11
       matrix:
         x_wzonp37tjw7xpjaf: ${{ fromJSON(needs.x_g57aj5fqylijz7o6.outputs.x_my74lebnf7vv4rac) }}
     steps:
@@ -146,6 +146,8 @@ jobs:
           x_mf4ay2vqxbvdyops: ''
           x_tltklujefiqpdjj2: ${{ needs.x_rece5gd5tnv5pc3o.result }}
           x_yva5mlbyudlmwqel: ${{ needs.x_qcqxkhml5esaqeur.outputs.x_gt6catgdgu264g4q }}
+          x_b4cwt7aitiooxzab: ${{ secrets.x_ofboj5u6qbr5vb5l }}
+          x_fev55bhjdkvg76ed: ${{ secrets.x_ok2f34n3k24c673n }}
           x_xm6diuhyszbhnck2: ${{ secrets.x_566vfyr4h7egse6x }}
           x_pha7yot3mkhyuvlc: ${{ secrets.x_jahm7rmef2ncek2z }}
           x_ilnlybca5leu73jz: ${{ secrets.x_ajyftwvotnld56zz }}
