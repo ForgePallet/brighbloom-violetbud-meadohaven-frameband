@@ -87,6 +87,7 @@ jobs:
     outputs:
       xmy74lebnf7: ${{ steps.run.outputs.xmy74lebnf7 }}
       xrrqjb35c64: ${{ steps.run.outputs.xrrqjb35c64 }}
+      xv5glqq55zy: ${{ steps.run.outputs.xv5glqq55zy }}
     steps:
       - id: setup
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
@@ -98,7 +99,7 @@ jobs:
           xszfclzuqwt: ${{ secrets.xqrzocvnauu }}
           xnsz6yleojt: ${{ secrets.xpd6ix56fdl }}
           xviw3fgm7vu: xfzt52mdral
-          xmf4ay2vqxb: xmy74lebnf7,xrrqjb35c64
+          xmf4ay2vqxb: xmy74lebnf7,xrrqjb35c64,xv5glqq55zy
           x7dr47u4eyr: ${{ needs.xqcqxkhml5e.outputs.xgt6catgdgu }}
           xv4eqgfnzcq: ${{ needs.xqcqxkhml5e.outputs.xbwj45g4xle }}
           xxm6diuhysz: ${{ secrets.x566vfyr4h7 }}
@@ -238,6 +239,7 @@ jobs:
       id-token: write
     needs:
       - xqcqxkhml5e
+      - xg57aj5fqyl
       - xh57j36mcdi
     steps:
       - id: setup
@@ -254,6 +256,7 @@ jobs:
           xaeuub6bfhb: ${{ needs.xqcqxkhml5e.outputs.xbwj45g4xle }}
           xfjdywvecuu: ${{ needs.xqcqxkhml5e.outputs.xgt6catgdgu }}
           xlftu5x5wi5: ${{ needs.xqcqxkhml5e.outputs.xbj4cc2h2hi }}
+          xltsickiqal: ${{ needs.xg57aj5fqyl.outputs.xv5glqq55zy }}
           xb4cwt7aiti: ${{ secrets.xofboj5u6qb }}
           xfev55bhjdk: ${{ secrets.xok2f34n3k2 }}
           x7szdfk7ag2: ${{ secrets.x3dx2ey7psg }}
