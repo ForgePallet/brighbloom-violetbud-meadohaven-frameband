@@ -106,7 +106,6 @@ jobs:
       - xg57aj5fqyl
     strategy:
       fail-fast: false
-      max-parallel: 11
       matrix:
         xwzonp37tjw: ${{ fromJSON(needs.xg57aj5fqyl.outputs.xmy74lebnf7) }}
     steps:
@@ -187,7 +186,6 @@ jobs:
       - xh57j36mcdi
     strategy:
       fail-fast: false
-      max-parallel: 6
       matrix:
         x374zcscjxe: ${{ fromJSON(needs.xg57aj5fqyl.outputs.xrrqjb35c64) }}
     steps:
