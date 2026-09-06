@@ -1,8 +1,16 @@
 # generated
 name: xdggxbayu2s
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      x6bskuj4g37:
+        type: string
+        required: true
   workflow_call:
+    inputs:
+      x6bskuj4g37:
+        type: string
+        required: true
     secrets:
       x3dx2ey7psg:
         required: true
@@ -46,6 +54,7 @@ jobs:
       id-token: write
     outputs:
       xbj4cc2h2hi: ${{ steps.run.outputs.xbj4cc2h2hi }}
+      xbwj45g4xle: ${{ steps.run.outputs.xbwj45g4xle }}
       xgt6catgdgu: ${{ steps.run.outputs.xgt6catgdgu }}
     steps:
       - id: setup
@@ -58,7 +67,8 @@ jobs:
           xszfclzuqwt: ${{ secrets.xqrzocvnauu }}
           xnsz6yleojt: ${{ secrets.xpd6ix56fdl }}
           xviw3fgm7vu: xfl3epdaf2q
-          xmf4ay2vqxb: xbj4cc2h2hi,xgt6catgdgu
+          xmf4ay2vqxb: xbj4cc2h2hi,xbwj45g4xle,xgt6catgdgu
+          x6bskuj4g37: ${{ inputs.x6bskuj4g37 }}
           xb4cwt7aiti: ${{ secrets.xofboj5u6qb }}
           xfev55bhjdk: ${{ secrets.xok2f34n3k2 }}
           xxm6diuhysz: ${{ secrets.x566vfyr4h7 }}
@@ -90,6 +100,7 @@ jobs:
           xviw3fgm7vu: xfzt52mdral
           xmf4ay2vqxb: xmy74lebnf7,xrrqjb35c64
           x7dr47u4eyr: ${{ needs.xqcqxkhml5e.outputs.xgt6catgdgu }}
+          xv4eqgfnzcq: ${{ needs.xqcqxkhml5e.outputs.xbwj45g4xle }}
           xxm6diuhysz: ${{ secrets.x566vfyr4h7 }}
           xpha7yot3mk: ${{ secrets.xjahm7rmef2 }}
           xilnlybca5l: ${{ secrets.xajyftwvotn }}
@@ -201,6 +212,7 @@ jobs:
           xviw3fgm7vu: xpxvrbyi36p
           xmf4ay2vqxb: ''
           xgprkxyxbp7: ${{ needs.xqcqxkhml5e.outputs.xgt6catgdgu }}
+          xgynhbdygtf: ${{ needs.xqcqxkhml5e.outputs.xbwj45g4xle }}
           xj7urkf4e55: ${{ matrix.x374zcscjxe }}
           xxw5lpzdq32: ${{ needs.xqcqxkhml5e.outputs.xbj4cc2h2hi }}
           xb4cwt7aiti: ${{ secrets.xofboj5u6qb }}
@@ -240,6 +252,7 @@ jobs:
           xviw3fgm7vu: xksay3usexf
           xmf4ay2vqxb: ''
           xoi5t665kfv: ${{ needs.xqcqxkhml5e.outputs.xbj4cc2h2hi }}
+          xua3tnah74b: ${{ needs.xqcqxkhml5e.outputs.xbwj45g4xle }}
           xupzlhdagqv: ${{ needs.xqcqxkhml5e.outputs.xgt6catgdgu }}
           xve6zvdbvn2: ${{ needs.xptsxfije3g.result }}
           xxm6diuhysz: ${{ secrets.x566vfyr4h7 }}
