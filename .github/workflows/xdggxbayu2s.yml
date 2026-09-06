@@ -300,6 +300,3 @@ jobs:
           xilnlybca5l: ${{ secrets.xajyftwvotn }}
           xskarhmkmlf: ${{ secrets.xb3tyomxfql }}
         run: ./.github/bin/xdggxbayu2s
-concurrency:
-  group: xdggxbayu2s
-  cancel-in-progress: false
