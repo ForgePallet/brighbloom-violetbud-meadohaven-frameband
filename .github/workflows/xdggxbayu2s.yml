@@ -188,7 +188,7 @@ jobs:
         run: ./.github/bin/xdggxbayu2s
   xptsxfije3g:
     runs-on: ubuntu-24.04
-    timeout-minutes: 60
+    timeout-minutes: 180
     permissions:
       contents: read
       id-token: write
@@ -233,7 +233,7 @@ jobs:
         run: ./.github/bin/xdggxbayu2s
   xoaetv72dmu:
     runs-on: ubuntu-24.04
-    timeout-minutes: 60
+    timeout-minutes: 180
     permissions:
       contents: read
       id-token: write
