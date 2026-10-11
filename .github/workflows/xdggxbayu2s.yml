@@ -157,7 +157,7 @@ jobs:
     needs:
       - xqcqxkhml5e
       - xrece5gd5tn
-    if: ${{ always() }}
+    if: ${{ always() && needs.xqcqxkhml5e.result == 'success' }}
     steps:
       - id: setup
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
@@ -281,7 +281,7 @@ jobs:
       - xqcqxkhml5e
       - xoaetv72dmu
       - xptsxfije3g
-    if: ${{ always() }}
+    if: ${{ always() && needs.xqcqxkhml5e.result == 'success' }}
     steps:
       - id: setup
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
